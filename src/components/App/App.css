@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 420px;
+  height: 100%;
+  background-color: #fff;
+}
+
+html {
+  font-family: 'Inter', 'Arial', 'sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}

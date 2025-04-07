@@ -1,0 +1,19 @@
+.poster-container {
+  width: auto;
+  height: auto;
+}
+
+.poster-img,
+.poster-avatar {
+  width: 183px !important;
+  height: 281px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .poster-img,
+  .poster-avatar {
+    width: 60px !important;
+    height: 91px !important;
+  }
+}

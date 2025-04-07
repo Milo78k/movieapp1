@@ -1,0 +1,47 @@
+.movie-info-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: flex-start;
+  opacity: 0.65;
+}
+
+.movie-info-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 228px;
+}
+
+.movie-info-date {
+  color: #827e7e;
+  font-size: 12px;
+}
+
+.movie-info-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 20px;
+}
+
+.movie-info-title h5,
+.movie-info-title h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-title {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .movie-info-header {
+    max-width: 100%;
+  }
+}
